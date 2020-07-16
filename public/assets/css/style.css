@@ -1,0 +1,297 @@
+/* @media only screen and (max-width: 601px) {
+  .regform {
+    width: 300px;
+    height: 150px;
+  }
+} */
+
+@media only screen and (max-width: 601px) {
+  .planet-game {
+    /* width: 85%; */
+    width: 300px;
+    height: 150px;
+  }
+
+  #dashboard {
+    width: 100%;
+  }
+
+  #avatar-group {
+    text-align: center;
+  }
+
+  #avatar {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 40px !important;
+  }
+}
+
+@media only screen and (min-width: 602px) {
+  .h5 {
+    font-size: 200px;
+  }
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.scroll-drop {
+  overflow: auto;
+  max-height: 500px
+}
+
+
+
+
+
+@font-face {
+  font-family: 'sports';
+  src: url(../fonts/TrueType/SFSportsNightNS.ttf);
+}
+
+@font-face {
+  font-family: 'teamspirit';
+  src: url(../fonts/TrueType/TeamSpiritNF.otf);
+}
+
+@font-face {
+  font-family: 'fightnight';
+  src: url(../fonts/TrueType/FightNight.otf);
+}
+
+@font-face {
+  font-family: 'sketchcollege';
+  src: url(../fonts/TrueType/SketchCollege.ttf);
+}
+
+@font-face {
+  font-family: 'Enfatica';
+  src: url(../fonts/TrueType/Enfatica.otf);
+}
+
+@font-face {
+  font-family: 'Enfaticaob';
+  src: url(../fonts/TrueType/Enfaticaob.otf);
+}
+
+@font-face {
+  font-family: 'sfsports';
+  src: url(../fonts/TrueType/SFSportsNightNS.ttf);
+}
+
+.btnspacing {
+  margin-right: 15px;
+  font-size: 1.2vw;
+  font-family: sfsports;
+}
+
+body {
+  background-image: url('../images/vball.jpg');
+  background-repeat: no-repeat;
+  color: white;
+  /* position: fixed;  */
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+h1 {
+  font-family: sketchcollege;
+  margin: 0;
+  font-size: 4vw;
+  /* text-shado
+  w: 1px 1px 2px orange; */
+}
+
+h2 {
+  font-family: sketchcollege;
+  margin: 0;
+  font-size: 4.5vw;
+  scale: -2;
+  /* text-shado
+  w: 1px 1px 2px orange; */
+}
+
+.sfsports {
+  font-family: sfsports;
+  margin: 0;
+  font-size: 1.5vw;
+
+  /* text-shadow: 1px 1px 2px orange; */
+}
+
+.sketchcollege {
+  font-family: sketchcollege;
+  margin: 0;
+  font-size: 1.5vw;
+
+  /* text-shadow: 1px 1px 2px orange; */
+}
+
+#avatar {
+  width: 140px;
+  /* text-shadow: 1px 1px 2px orange; */
+  /* TODO: fix this class for profile pic */
+}
+
+h5 {
+  font-family: sports;
+}
+
+#map {
+  height: 500px;
+  width: 500px;
+  padding: 50px;
+}
+
+.hideMap {
+  visibility: hidden;
+}
+
+h2 {
+  color: wheat;
+}
+
+.regform {
+  margin-top: 2%;
+  /* width: 800px; */
+  background-color: rgb(1, 0, 0, 0.6);
+  color: #ffffff;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  border-radius: 15px 15px 0px 0px;
+  position: relative;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.main {
+  width: 100%;
+  margin: auto;
+}
+
+form {
+  padding: 50px;
+}
+
+#dialogbox {
+  display: none;
+  position: fixed;
+  border-radius: 2px;
+  top: 400px;
+  width: 500 px;
+  height: 600 px;
+  left: 550px;
+}
+
+#dialogbox>div {
+  background: black;
+}
+
+#dialogbox>div>#headermessage {
+  background: black;
+  padding: 10px;
+  color: #ccc;
+  text-align: center;
+  padding: 6px 1px 6px 1px;
+}
+
+#dialogbox>div>#bodymessage {
+  background: black;
+  font-size: 15px;
+  padding: 25px;
+  color: orange;
+  padding: 10px 3px 10px 3px;
+}
+
+#okbutton {
+  color: black;
+  background-color: red;
+  padding: 5px;
+}
+
+#tablePic {
+  height: 75px;
+  border-radius: 20%;
+  border-style: solid 2px;
+  border-color: white;
+  box-shadow: 0 10% 10% black(254, 165, 0, 0.66);
+}
+
+.containerimg {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+#iconColor {
+  color: black;
+}
+
+.logoimg {
+  height: 62px;
+}
+
+.caroimg {
+  border-radius: 20%;
+}
+
+.btnhoover:hover {
+  -webkit-animation: anim ease-out 0.5s 1;
+  animation: anim 1.5s 2;
+  transform: translateZ(100px);
+  box-sizing: content-box 10px;
+  box-shadow: 0 10px 10px rgba(254, 165, 0, 0.66);
+  opacity: 1;
+  position: relative;
+  transform: scale(1.1);
+}
+
+.caroimg {
+
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.btnhoover:hover {
+  -webkit-animation: anim ease-out 0.5s 1;
+  animation: anim 1.5s 2;
+  transform: translateZ(100px);
+  box-sizing: content-box 10px;
+  box-shadow: 0 10px 10px rgba(254, 165, 0, 0.66);
+  opacity: 1;
+  position: relative;
+  transform: scale(1.1);
+  color: white;
+}
+.logimgheader{
+  size: 20px;
+}
+
+.select-dropdown {
+  color: white;
+}
+
+/* * {cursor: url(https://cur.cursors-4u.net/sports/spo-1/spo38.cur), auto !important;}  */
+/* End http://www.cursors-4u.com */
